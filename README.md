@@ -40,12 +40,14 @@ Once Raft is finished running, it will display the values that it found as well 
 
 ============================================== 
 Types of attacks and frequency:
+
 attempted-admin                         62
 web-application-attack                  196
 policy-violation                        27
 attempted-user                          29
 attempted-recon                         25
 bad-unknown                             20
+
 ============================================== 
 
 This information is taken from the Snort Rules 'classtype' field within the rule.  If the rule does not have this value, then the result will be recorded as 'Unknown.'
