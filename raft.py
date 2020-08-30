@@ -334,6 +334,7 @@ if args.a:
                             numberofTypesofAttacks[classtype] = numberofTypesofAttacks[classtype] + 1
                         else:
                             numberofTypesofAttacks[classtype] = 1
+                        break
 sqlite_connection.commit()
 sqlite_connection.close()
 
