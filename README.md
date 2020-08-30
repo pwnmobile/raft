@@ -7,10 +7,13 @@ Make sure you're running the most current version of Python 3.
 You can run pip3 install requirements.txt
 
 To install the Python PCRE module, run the following command:
+
 sudo pip3 install python-pcre
 
 If having issues with installing PCRE, try runing this first:
+
 sudo apt-get install libpcre3-dev
+sudo yum install pcre-devel
 
 # Usage:
 logfile.py [-h] [-a] [-c] [-p] [-t] [-v] [-vv] [-s [S]] [-d [DATABASE]] -r [R] [--regex [REGEX]] path
